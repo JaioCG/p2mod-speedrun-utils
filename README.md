@@ -3,6 +3,8 @@
 
 SAR supports a couple of mods' timing categories by default, however the majority of them need to be added manually. Instead of having these categories strawn about the internet, I've decided to collect as many as I can here.
 
+SAR already supports categories for Portal 2, Aperture Tag, Portal Stories: Mel, Thinking with Time Machine, and Portal Reloaded. These won't be included here.
+
 ## Installation
 1. Open `cats.txt` and search for the mod you wish to create a category for.
 2. Copy the lines containing "sar_speedrun_cc_" and paste them into the mod's `.cfg` file
