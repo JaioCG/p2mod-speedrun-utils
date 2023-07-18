@@ -31,7 +31,7 @@ sar_speedrun_category "Mind Escape"
 
 **P1 Done P2 (Splits on Chambers):**
 ```sar_speedrun_cc_start "P1 Done P2 Chambers RTA" action=split
-sar_speedrun_cc_rule "Start" entity action=force_start targetname=trigger_knockout_teleport inputname=Disable map=testchmb_a_00
+sar_speedrun_cc_rule "Start" entity action=start targetname=trigger_knockout_teleport inputname=Disable map=testchmb_a_00
 sar_speedrun_cc_rule "01 Start" entity targetname=elevator_body_middle inputname=Stop map=testchmb_a_00
 sar_speedrun_cc_rule "03 Start" entity targetname=a01-middleelevator_body inputname=Stop map=testchmb_a_01
 sar_speedrun_cc_rule "05 Start" entity targetname=a02-middle_elevator_body inputname=Stop map=testchmb_a_02
