@@ -1,6 +1,7 @@
 **Aperture Ireland:**
 ```sar_speedrun_cc_start "Aperture Ireland"
-sar_speedrun_cc_rule "Start" load action=start map=ep1_testchmb_00
+sar_speedrun_cc_rule "Start" entity action=start map=ep1_testchmb_00 targetname=blackout_cam inputname=Disable
+sar_speedrun_cc_rule "Vault Start" entity action=start map=ep1_testchmb_00 targetname=green_portal inputname=SetActivatedState
 sar_speedrun_cc_rule "Finish" entity action=stop map=ep2_finale targetname=anti_cmb_thrown_down inputname=Cancel
 sar_speedrun_cc_finish
 sar_speedrun_category "Aperture Ireland"
@@ -9,7 +10,7 @@ sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map ep1
 
 **Designed for Danger:**
 ```sar_speedrun_cc_start "Designed for Danger"
-sar_speedrun_cc_rule "Start" load action=start map=dfd_1_intro 
+sar_speedrun_cc_rule "Start" entity action=start map=dfd_1_intro targetname=blackout_teleport_player_to_surprise inputname=Teleport
 sar_speedrun_cc_rule "Finish" entity action=stop map=dfd_8_adventure2 targetname=end_fade inputname=Fade
 sar_speedrun_cc_finish
 sar_speedrun_category "Designed for Danger"
@@ -26,7 +27,8 @@ sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map sp_
 
 **Mind Escape:**
 ```sar_speedrun_cc_start "Mind Escape"
-sar_speedrun_cc_rule "Start" load action=start map=sp_a260201_room_1alpha
+sar_speedrun_cc_rule "Start" entity action=start map=sp_a260201_room_1alpha targetname=cam inputname=Disable
+sar_speedrun_cc_rule "Vault Start" entity action=start map=sp_a260201_room_1alpha targetname=p0 inputname=SetActivatedState
 sar_speedrun_cc_rule "Finish" entity action=stop map=sp_a260202_room_5beta targetname=mind_escape inputname=Trigger
 sar_speedrun_cc_finish
 sar_speedrun_category "Mind Escape"
@@ -67,7 +69,8 @@ sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map tes
 
 **Welcome Back:**
 ```sar_speedrun_cc_start "Welcome Back"
-sar_speedrun_cc_rule "Start" load action=start map=sp_intro 
+sar_speedrun_cc_rule "Start" entity action=start map=sp_intro targetname=start_fade inputname=Fade
+sar_speedrun_cc_rule "Vault Start" entity action=start map=sp_intro targetname=elevator_1_body inputname=SetAnimation
 sar_speedrun_cc_rule "Finish" entity action=stop map=sp_bts2 targetname=@changelevel inputname=Changelevel
 sar_speedrun_cc_finish
 sar_speedrun_category "Welcome Back"
