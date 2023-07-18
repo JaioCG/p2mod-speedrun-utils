@@ -1,4 +1,4 @@
-# p2mod-sar-cats
+# Portal 2 Mod SAR Categories
 [SourceAutoRecord](https://sar.portal2.sr) speedrun categories for different Portal 2 mods.
 
 SAR supports a couple of mods' timing categories by default, however the majority of them need to be added manually. Instead of having these categories strawn about the internet, I've decided to collect as many as I can here.
