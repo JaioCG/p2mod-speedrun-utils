@@ -4,6 +4,7 @@ sar_speedrun_cc_rule "Start" load action=start map=ep1_testchmb_00
 sar_speedrun_cc_rule "Finish" entity action=stop map=ep2_finale targetname=anti_cmb_thrown_down inputname=Cancel
 sar_speedrun_cc_finish
 sar_speedrun_category "Aperture Ireland"
+sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map ep1_testchmb_00"
 ```
 
 **Designed for Danger:**
@@ -12,6 +13,7 @@ sar_speedrun_cc_rule "Start" load action=start map=dfd_1_intro
 sar_speedrun_cc_rule "Finish" entity action=stop map=dfd_8_adventure2 targetname=end_fade inputname=Fade
 sar_speedrun_cc_finish
 sar_speedrun_category "Designed for Danger"
+sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map dfd_1_intro"
 ```
 
 **Dilapidation**
@@ -19,6 +21,7 @@ sar_speedrun_category "Designed for Danger"
 sar_speedrun_cc_rule "Start" entity action=start map=sp_dilapidation_p0 targetname=camera inputname=Disable
 sar_speedrun_cc_rule "Finish" entity action=stop map=sp_dilapidation_p6 targetname=end_fade inputname=Fade
 sar_speedrun_cc_finish
+sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map sp_dilapidation_p0"
 ```
 
 **Mind Escape:**
@@ -27,6 +30,7 @@ sar_speedrun_cc_rule "Start" load action=start map=sp_a260201_room_1alpha
 sar_speedrun_cc_rule "Finish" entity action=stop map=sp_a260202_room_5beta targetname=mind_escape inputname=Trigger
 sar_speedrun_cc_finish
 sar_speedrun_category "Mind Escape"
+sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map sp_a260201_room_1alpha"
 ```
 
 **P1 Done P2 (Splits on Chambers):**
@@ -40,6 +44,7 @@ sar_speedrun_cc_rule "12 Start Inbounds" entity targetname=07a_07b_elevator_body
 sar_speedrun_cc_rule "Finish" entity action=stop targetname=glados_destruction inputname=Start map=escape_02
 sar_speedrun_cc_finish
 sar_speedrun_category "P1 Done P2 Chambers RTA"
+sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map testchmb_a_00"
 ```
 
 **P1 Done P2 (Splits on Maps):**
@@ -48,6 +53,7 @@ sar_speedrun_cc_rule "Start" entity action=start map=testchmb_a_00 targetname=tr
 sar_speedrun_cc_rule "Finish" entity action=stop map=escape_02 targetname=glados_destruction inputname=Start
 sar_speedrun_cc_finish
 sar_speedrun_category "P1 Done P2"
+sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map testchmb_a_00"
 ```
 
 **Portal: Unity Reboot**
@@ -56,6 +62,7 @@ sar_speedrun_cc_rule "Start" entity action=start map=testchmb00 targetname=black
 sar_speedrun_cc_rule "Finish" entity action=stop map=escape00 targetname=a00-a01_elevator_stop inputname=PlaySound
 sar_speedrun_cc_finish
 sar_speedrun_category "Portal Unity Reboot"
+sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map testchmb00"
 ```
 
 **Welcome Back:**
@@ -64,4 +71,5 @@ sar_speedrun_cc_rule "Start" load action=start map=sp_intro
 sar_speedrun_cc_rule "Finish" entity action=stop map=sp_bts2 targetname=@changelevel inputname=Changelevel
 sar_speedrun_cc_finish
 sar_speedrun_category "Welcome Back"
+sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map sp_intro"
 ```
