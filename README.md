@@ -11,6 +11,7 @@ SAR already supports categories for Portal 2, Aperture Tag, Portal Stories: Mel,
    - If you're using [srconfigs](https://github.com/p2sr/srconfigs), put these commands into the `mkcats.cfg` file.
 3. Add the "sar_speedrun_category" line to the mod's `.cfg` file and set it to the category you want to use. srconfigs users should put this file in the `cfg/cats` directory.
 4. Add the "sar_alias do_reset" line to the end of the mod's `.cfg` file. This command is used to stop and reset a run.
+   - Feel free to change the `map` part of the do_reset alias to be a save loading if the mod has a vault/start save available.
 
 ## Demo Category
 For those that don't want to create a new config file from scratch for a mod, I've included a `demo-category.cfg` file that contains most of the commands needed for a run, including demo recording commands. The file is based on srconfigs' category files, however it does work standalone.
