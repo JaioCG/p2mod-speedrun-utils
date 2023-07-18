@@ -11,5 +11,12 @@ SAR already supports categories for Portal 2, Aperture Tag, Portal Stories: Mel,
    - If you're using [srconfigs](https://github.com/p2sr/srconfigs), put these commands into the `mkcats.cfg` file.
 3. Add the "sar_speedrun_category" line to the mod's `.cfg` file and set it to the category you want to use. srconfigs users should put this file in the `cfg/cats` directory.
 
+## Demo Category
+For those that don't want to create a new config file from scratch for a mod, I've included a `demo-category.cfg` file that contains most of the commands needed for a run, including demo recording commands. The file is based on srconfigs' category files, however it does work standalone.
+
+1. Download this file, place it in `cfg/cats` (or just cfg without srconfigs), and rename it to the mods name.
+2. Follow the instructions on the file to set up the category.
+3. [SRCONFIGS ONLY] Add the command `add_cat <file name>` to your extra.cfg file. Then in game, you can run `<file name>` to select the category.
+
 ## Contributing
 For any new mods added to [speedrun.com](https://github.com/p2sr/srconfigs), please put in a pull request here with the mod's SAR category. If you're not sure how to do this, feel free to ask in the [SAR Discord](https://discord.gg/p2sr).
