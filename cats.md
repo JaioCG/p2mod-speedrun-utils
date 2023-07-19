@@ -1,6 +1,7 @@
 **Aperture Ireland:**
 ```sar_speedrun_cc_start "Aperture Ireland"
 sar_speedrun_cc_rule "Start" entity action=start map=ep1_testchmb_00 targetname=blackout_cam inputname=Disable
+// If you're using Vault Save, set sar_speedrun_offset to 3600
 sar_speedrun_cc_rule "Vault Start" entity action=start map=ep1_testchmb_00 targetname=green_portal inputname=SetActivatedState
 sar_speedrun_cc_rule "Finish" entity action=stop map=ep2_finale targetname=anti_cmb_thrown_down inputname=Cancel
 sar_speedrun_cc_finish
@@ -42,6 +43,7 @@ sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map Mem
 **Mind Escape (Splits on Chambers):**
 ```sar_speedrun_cc_start "Mind Escape Chambers" action=split
 sar_speedrun_cc_rule "Start" entity action=start map=sp_a260201_room_1alpha targetname=cam inputname=Disable
+// If you're using Vault Save, set sar_speedrun_offset to 2730
 sar_speedrun_cc_rule "Vault Start" entity action=start map=sp_a260201_room_1alpha targetname=p0 inputname=SetActivatedState
 sar_speedrun_cc_rule "00" entity map=sp_a260201_room_1alpha targetname=1l--start_elev inputname=StopSound
 sar_speedrun_cc_rule "01" entity map=sp_a260201_room_1alpha targetname=2l--start_elev inputname=StopSound
@@ -64,6 +66,7 @@ sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map sp_
 **Mind Escape (Splits on Maps):**
 ```sar_speedrun_cc_start "Mind Escape"
 sar_speedrun_cc_rule "Start" entity action=start map=sp_a260201_room_1alpha targetname=cam inputname=Disable
+// If you're using Vault Save, set sar_speedrun_offset to 2730
 sar_speedrun_cc_rule "Vault Start" entity action=start map=sp_a260201_room_1alpha targetname=p0 inputname=SetActivatedState
 sar_speedrun_cc_rule "Finish" entity action=stop map=sp_a260202_room_5beta targetname=mind_escape inputname=Trigger
 sar_speedrun_cc_finish
@@ -75,6 +78,7 @@ sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map sp_
 **P1 Done P2 (Splits on Chambers):**
 ```sar_speedrun_cc_start "P1 Done P2 Chambers" action=split
 sar_speedrun_cc_rule "Start" entity action=start map=testchmb_a_00 targetname=trigger_knockout_teleport inputname=Disable
+// If you're using Vault Save, set sar_speedrun_offset to 3412
 sar_speedrun_cc_rule "Vault Start" entity action=start map=testchmb_a_00 targetname=portal_blue_0 inputname=SetActivatedState
 sar_speedrun_cc_rule "01" entity map=testchmb_a_00 targetname=elevator_body_middle inputname=Stop
 sar_speedrun_cc_rule "03" entity map=testchmb_a_01 targetname=a01-middleelevator_body inputname=Stop
@@ -91,6 +95,7 @@ sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map tes
 **P1 Done P2 (Splits on Maps):**
 ```sar_speedrun_cc_start "P1 Done P2"
 sar_speedrun_cc_rule "Start" entity action=start map=testchmb_a_00 targetname=trigger_knockout_teleport inputname=Disable
+// If you're using Vault Save, set sar_speedrun_offset to 3412
 sar_speedrun_cc_rule "Vault Start" entity action=start map=testchmb_a_00 targetname=portal_blue_0 inputname=SetActivatedState
 sar_speedrun_cc_rule "Finish" entity action=stop map=escape_02 targetname=glados_destruction inputname=Start
 sar_speedrun_cc_finish
@@ -112,6 +117,7 @@ sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map tes
 **Welcome Back:**
 ```sar_speedrun_cc_start "Welcome Back"
 sar_speedrun_cc_rule "Start" entity action=start map=sp_intro targetname=start_fade inputname=Fade
+// If you're using Vault Save, set sar_speedrun_offset to 1180
 sar_speedrun_cc_rule "Vault Start" entity action=start map=sp_intro targetname=elevator_1_body inputname=SetAnimation
 sar_speedrun_cc_rule "Finish" entity action=stop map=sp_bts2 targetname=@changelevel inputname=Changelevel
 sar_speedrun_cc_finish

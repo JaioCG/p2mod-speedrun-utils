@@ -24,6 +24,3 @@ For those that don't want to create a new config file from scratch for a mod, I'
 
 ## Contributing
 For any new mods added to [speedrun.com](https://github.com/p2sr/srconfigs), please put in a pull request here with the mod's SAR category. If you're not sure how to do this, feel free to ask in the [SAR Discord](https://discord.gg/p2sr).
-
-## Todos
-- Add offset times for mods that have a vault save
