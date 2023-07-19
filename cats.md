@@ -1,5 +1,6 @@
 **Aperture Ireland:**
-```sar_speedrun_cc_start "Aperture Ireland"
+```
+sar_speedrun_cc_start "Aperture Ireland"
 sar_speedrun_cc_rule "Start" entity action=start map=ep1_testchmb_00 targetname=blackout_cam inputname=Disable
 // If you're using Vault Save, set sar_speedrun_offset to 3600
 sar_speedrun_cc_rule "Vault Start" entity action=start map=ep1_testchmb_00 targetname=green_portal inputname=SetActivatedState
@@ -11,7 +12,8 @@ sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map ep1
 ```
 
 **Designed for Danger:**
-```sar_speedrun_cc_start "Designed for Danger"
+```
+sar_speedrun_cc_start "Designed for Danger"
 sar_speedrun_cc_rule "Start" entity action=start map=dfd_1_intro targetname=blackout_teleport_player_to_surprise inputname=Teleport
 sar_speedrun_cc_rule "Finish" entity action=stop map=dfd_8_adventure2 targetname=end_fade inputname=Fade
 sar_speedrun_cc_finish
@@ -21,7 +23,8 @@ sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map dfd
 ```
 
 **Dilapidation:**
-```sar_speedrun_cc_start "Dilapidation"
+```
+sar_speedrun_cc_start "Dilapidation"
 sar_speedrun_cc_rule "Start" entity action=start map=sp_dilapidation_p0 targetname=camera inputname=Disable
 sar_speedrun_cc_rule "Finish" entity action=stop map=sp_dilapidation_p6 targetname=end_fade inputname=Fade
 sar_speedrun_cc_finish
@@ -31,7 +34,8 @@ sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map sp_
 ```
 
 **Memories:**
-```sar_speedrun_cc_start "Memories"
+```
+sar_speedrun_cc_start "Memories"
 sar_speedrun_cc_rule "Start" entity action=start map=Memories_Chapter_I targetname=wake_up inputname=Display
 sar_speedrun_cc_rule "Finish" entity action=stop map=Memories_chapter_5_map_4 targetname=outro_fade inputname=Fade
 sar_speedrun_cc_finish
@@ -41,7 +45,8 @@ sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map Mem
 ```
 
 **Mind Escape (Splits on Chambers):**
-```sar_speedrun_cc_start "Mind Escape Chambers" action=split
+```
+sar_speedrun_cc_start "Mind Escape Chambers" action=split
 sar_speedrun_cc_rule "Start" entity action=start map=sp_a260201_room_1alpha targetname=cam inputname=Disable
 // If you're using Vault Save, set sar_speedrun_offset to 2730
 sar_speedrun_cc_rule "Vault Start" entity action=start map=sp_a260201_room_1alpha targetname=p0 inputname=SetActivatedState
@@ -64,7 +69,8 @@ sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map sp_
 ```
 
 **Mind Escape (Splits on Maps):**
-```sar_speedrun_cc_start "Mind Escape"
+```
+sar_speedrun_cc_start "Mind Escape"
 sar_speedrun_cc_rule "Start" entity action=start map=sp_a260201_room_1alpha targetname=cam inputname=Disable
 // If you're using Vault Save, set sar_speedrun_offset to 2730
 sar_speedrun_cc_rule "Vault Start" entity action=start map=sp_a260201_room_1alpha targetname=p0 inputname=SetActivatedState
@@ -76,7 +82,8 @@ sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map sp_
 ```
 
 **P1 Done P2 (Splits on Chambers):**
-```sar_speedrun_cc_start "P1 Done P2 Chambers" action=split
+```
+sar_speedrun_cc_start "P1 Done P2 Chambers" action=split
 sar_speedrun_cc_rule "Start" entity action=start map=testchmb_a_00 targetname=trigger_knockout_teleport inputname=Disable
 // If you're using Vault Save, set sar_speedrun_offset to 3412
 sar_speedrun_cc_rule "Vault Start" entity action=start map=testchmb_a_00 targetname=portal_blue_0 inputname=SetActivatedState
@@ -93,7 +100,8 @@ sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map tes
 ```
 
 **P1 Done P2 (Splits on Maps):**
-```sar_speedrun_cc_start "P1 Done P2"
+```
+sar_speedrun_cc_start "P1 Done P2"
 sar_speedrun_cc_rule "Start" entity action=start map=testchmb_a_00 targetname=trigger_knockout_teleport inputname=Disable
 // If you're using Vault Save, set sar_speedrun_offset to 3412
 sar_speedrun_cc_rule "Vault Start" entity action=start map=testchmb_a_00 targetname=portal_blue_0 inputname=SetActivatedState
@@ -105,7 +113,8 @@ sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map tes
 ```
 
 **Portal: Unity Reboot:**
-```sar_speedrun_cc_start "Portal Unity Reboot"
+```
+sar_speedrun_cc_start "Portal Unity Reboot"
 sar_speedrun_cc_rule "Start" entity action=start map=testchmb00 targetname=blackout_cam inputname=Disable
 sar_speedrun_cc_rule "Finish" entity action=stop map=escape00 targetname=a00-a01_elevator_stop inputname=PlaySound
 sar_speedrun_cc_finish
@@ -115,7 +124,8 @@ sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map tes
 ```
 
 **Welcome Back:**
-```sar_speedrun_cc_start "Welcome Back"
+```
+sar_speedrun_cc_start "Welcome Back"
 sar_speedrun_cc_rule "Start" entity action=start map=sp_intro targetname=start_fade inputname=Fade
 // If you're using Vault Save, set sar_speedrun_offset to 1180
 sar_speedrun_cc_rule "Vault Start" entity action=start map=sp_intro targetname=elevator_1_body inputname=SetAnimation
