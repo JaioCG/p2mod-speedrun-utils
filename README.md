@@ -20,6 +20,8 @@ For those that don't want to create a new config file from scratch for a mod, I'
 2. Follow the instructions on the file to set up the category.
 3. [SRCONFIGS ONLY] Add the command `add_cat <file name>` to your extra.cfg file. Then in game, you can run `<file name>` to select the category.
 
+*Do note that some mods use different proof standards, so you may need to edit some of the demo recording and timing commands.*
+
 ## Contributing
 For any new mods added to [speedrun.com](https://github.com/p2sr/srconfigs), please put in a pull request here with the mod's SAR category. If you're not sure how to do this, feel free to ask in the [SAR Discord](https://discord.gg/p2sr).
 
