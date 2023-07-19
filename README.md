@@ -24,6 +24,4 @@ For those that don't want to create a new config file from scratch for a mod, I'
 For any new mods added to [speedrun.com](https://github.com/p2sr/srconfigs), please put in a pull request here with the mod's SAR category. If you're not sure how to do this, feel free to ask in the [SAR Discord](https://discord.gg/p2sr).
 
 ## Todos
-- Fix P1 Done P2 Vault Save Rule
 - Add offset times for mods that have a vault save
-- Add Memories (weird cause mod boots you back to the menu instead of transitioning maps)
