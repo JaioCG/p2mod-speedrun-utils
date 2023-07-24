@@ -11,6 +11,17 @@ sar_speedrun_category "Aperture Ireland"
 sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map ep1_testchmb_00"
 ```
 
+**Cosmonogy:**
+```
+sar_speedrun_cc_start "Cosmogony"
+sar_speedrun_cc_rule "Start" entity action=start map=cosmogony_release1 targetname=wakeup_camera inputname=Disable
+sar_speedrun_cc_rule "Finish" entity action=stop map=cosmogony6_release1 targetname=begin_ending_rl inputname=Trigger
+sar_speedrun_cc_finish
+
+sar_speedrun_category "Cosmogony"
+sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map cosmogony_release1"
+```
+
 **Designed for Danger:**
 ```
 sar_speedrun_cc_start "Designed for Danger"
@@ -31,6 +42,17 @@ sar_speedrun_cc_finish
 
 sar_speedrun_category "Dilapidation"
 sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map sp_dilapidation_p0"
+```
+
+**Eidolon:**
+```
+sar_speedrun_cc_start "Eidolon"
+sar_speedrun_cc_rule "Start" entity action=start map=sp_a1_beginning targetname=title_fade inputname=Fade
+sar_speedrun_cc_rule "Finish" entity action=stop map=sp_a5_eidolon3 targetname=end_titles inputname=Display
+sar_speedrun_cc_finish
+
+sar_speedrun_category "Eidolon"
+sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map sp_a1_beginning"
 ```
 
 **Memories:**
@@ -123,6 +145,17 @@ sar_speedrun_category "Portal Unity Reboot"
 sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map testchmb00"
 ```
 
+**Wake Up:**
+```
+sar_speedrun_cc_start "Wake Up"
+sar_speedrun_cc_rule "Start" entity action=start map=map1 targetname=FILM inputname=PlayMovie
+sar_speedrun_cc_rule "Finish" entity action=stop map=mapcake targetname=credits inputname=PlayMovie
+sar_speedrun_cc_finish
+
+sar_speedrun_category "Wake Up"
+sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map map1"
+```
+
 **Welcome Back:**
 ```
 sar_speedrun_cc_start "Welcome Back"
@@ -134,4 +167,15 @@ sar_speedrun_cc_finish
 
 sar_speedrun_category "Welcome Back"
 sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map sp_intro"
+```
+
+**Wibi!Data:**
+```
+sar_speedrun_cc_start "Wibi!Data"
+sar_speedrun_cc_rule "Start" entity action=start map=sp_lobby_1 targetname=Arrival_Elevator inputname=Open
+sar_speedrun_cc_rule "Finish" entity action=stop map=sp_lobby_final targetname=End_UI inputname=Activate
+sar_speedrun_cc_finish
+
+sar_speedrun_category "Wibi!Data"
+sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map sp_lobby_1"
 ```
