@@ -6,4 +6,4 @@ Use the `README.md` files in each folder for more information.
 
 ## Contributing
 
-For any new mods added to [speedrun.com](https://github.com/p2sr/srconfigs), please put in a pull request here with the mod's SAR category, start save (if needed), and edited maps (if needed). If you're not sure how to do this, feel free to ask in the [SAR Discord](https://discord.gg/p2sr).
+For any new mods added to [speedrun.com](https://www.speedrun.com/series/portal_series), please put in a pull request here with the mod's SAR category, start save (if needed), and edited maps (if needed). If you're not sure how to do this, feel free to ask in the [P2SR Discord](https://discord.gg/p2sr).
