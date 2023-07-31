@@ -22,6 +22,19 @@ sar_speedrun_category "Aperture Ireland"
 sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map ep1_testchmb_00"
 ```
 
+**Aperture Tag (Speedrun Mod)**
+Base Aperture Tag category is built into [SAR](https://sar.portal2.sr).
+```
+sar_speedrun_cc_start "Aperture Tag Speedrun Mod"
+sar_speedrun_cc_rule "Start" entity action=start map=sm_gg_intro_wakeup targetname=tele_out_shower inputname=Enable
+sar_speedrun_cc_rule "Good Ending" entity action=stop map=sm_gg_stage_theend targetname=ele_exit_door inputname=Close
+sar_speedrun_cc_rule "Bad Ending" entity action=stop map=sm_gg_stage_theend targetname=credits_video inputname=PlayMovie
+sar_speedrun_cc_finish
+
+sar_speedrun_category "Aperture Tag Speedrun Mod"
+sar_alias do_reset "sar_speedrun_reset; stop; map sm_gg_intro_wakeup"
+```
+
 **Cosmonogy:**
 ```
 sar_speedrun_cc_start "Cosmogony"
