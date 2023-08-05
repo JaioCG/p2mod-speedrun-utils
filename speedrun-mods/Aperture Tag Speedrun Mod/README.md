@@ -4,7 +4,7 @@ This is a mod for [Aperture Tag: The Paint Gun Testing Initiative](https://store
 
 ## Installation
 
-Download the release from the [releases page](https://github.com/JaioCG/p2mod-speedrun-utils/releases), and extract the contents to your Aperture Tag folder, dragging the `aperturetag` folder from the download on top of the already existing one.
+Download the release from the [releases page](https://github.com/JaioCG/p2mod-speedrun-utils/releases), and extract the contents to your Aperture Tag folder, dragging the `aperturetag` folder from the download to the same place as the already existing one.
 
 In-game, you can start the mod by typing `map sm_gg_intro_wakeup` into console.
 
