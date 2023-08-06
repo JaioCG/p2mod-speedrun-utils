@@ -2,7 +2,7 @@
 ```
 sar_speedrun_cc_start "After Hours"
 sar_speedrun_cc_rule "Start" entity action=start map=e1p1 targetname=blackout_cam inputname=Disable
-sar_speedrun_cc_rule "Finish" entity action=stop map=e1p14 targetname=end_level_strip inputname=Strip
+sar_speedrun_cc_rule "Finish" entity action=stop map=e1p14 targetname=fall_fade inputname=FadeReverse
 sar_speedrun_cc_finish
 
 sar_speedrun_category "After Hours"
