@@ -2,6 +2,8 @@
 ```
 sar_speedrun_cc_start "After Hours"
 sar_speedrun_cc_rule "Start" entity action=start map=e1p1 targetname=blackout_cam inputname=Disable
+// If you're using Vault Save, set sar_speedrun_offset to 1742
+sar_speedrun_cc_rule "Vault Start" entity action=start map=e1p1 targetname=door_button inputname=Unlock
 sar_speedrun_cc_rule "Finish" entity action=stop map=e1p14 targetname=fall_fade inputname=FadeReverse
 sar_speedrun_cc_finish
 
