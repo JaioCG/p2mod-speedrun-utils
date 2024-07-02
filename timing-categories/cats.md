@@ -1,4 +1,4 @@
-**After Hours:**
+**After Hours:** (Included with srconfigs)
 ```
 sar_speedrun_cc_start "After Hours"
 sar_speedrun_cc_rule "Start" entity action=start map=e1p1 targetname=blackout_cam inputname=Disable
@@ -11,7 +11,7 @@ sar_speedrun_category "After Hours"
 sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map e1p1"
 ```
 
-**Aperture Ireland:**
+**Aperture Ireland:** (Included with srconfigs)
 ```
 sar_speedrun_cc_start "Aperture Ireland"
 sar_speedrun_cc_rule "Start" entity action=start map=ep1_testchmb_00 targetname=blackout_cam inputname=Disable
@@ -24,7 +24,7 @@ sar_speedrun_category "Aperture Ireland"
 sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map ep1_testchmb_00"
 ```
 
-**Aperture Tag (Speedrun Mod)**
+**Aperture Tag (Speedrun Mod)** (Included with srconfigs)
 Base Aperture Tag category is built into [SAR](https://sar.portal2.sr).
 ```
 sar_speedrun_cc_start "Aperture Tag Speedrun Mod"
@@ -37,7 +37,7 @@ sar_speedrun_category "Aperture Tag Speedrun Mod"
 sar_alias do_reset "sar_speedrun_reset; stop; map sm_gg_intro_wakeup"
 ```
 
-**Cosmonogy:**
+**Cosmonogy:** (Included with srconfigs)
 ```
 sar_speedrun_cc_start "Cosmogony"
 sar_speedrun_cc_rule "Start" entity action=start map=cosmogony_release1 targetname=wakeup_camera inputname=Disable
@@ -48,7 +48,7 @@ sar_speedrun_category "Cosmogony"
 sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map cosmogony_release1"
 ```
 
-**Designed for Danger:**
+**Designed for Danger:** (Included with srconfigs)
 ```
 sar_speedrun_cc_start "Designed for Danger"
 sar_speedrun_cc_rule "Start" entity action=start map=dfd_1_intro targetname=blackout_teleport_player_to_surprise inputname=Teleport
@@ -59,7 +59,7 @@ sar_speedrun_category "Designed for Danger"
 sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map dfd_1_intro"
 ```
 
-**Dilapidation:**
+**Dilapidation:** (Included with srconfigs)
 ```
 sar_speedrun_cc_start "Dilapidation"
 sar_speedrun_cc_rule "Start" entity action=start map=sp_dilapidation_p0 targetname=camera inputname=Disable
@@ -70,7 +70,7 @@ sar_speedrun_category "Dilapidation"
 sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map sp_dilapidation_p0"
 ```
 
-**Eidolon:**
+**Eidolon:** (Included with srconfigs)
 ```
 sar_speedrun_cc_start "Eidolon"
 sar_speedrun_cc_rule "Start" entity action=start map=sp_a1_beginning targetname=title_fade inputname=Fade
@@ -81,7 +81,7 @@ sar_speedrun_category "Eidolon"
 sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map sp_a1_beginning"
 ```
 
-**Memories:**
+**Memories:** (Included with srconfigs)
 ```
 sar_speedrun_cc_start "Memories"
 sar_speedrun_cc_rule "Start" entity action=start map=Memories_Chapter_I targetname=wake_up inputname=Display
@@ -92,7 +92,7 @@ sar_speedrun_category "Memories"
 sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map Memories_Chapter_I"
 ```
 
-**Mind Escape (Splits on Chambers):**
+**Mind Escape (Splits on Chambers):** (Included with srconfigs)
 ```
 sar_speedrun_cc_start "Mind Escape Chambers" action=split
 sar_speedrun_cc_rule "Start" entity action=start map=sp_a260201_room_1alpha targetname=cam inputname=Disable
@@ -116,7 +116,7 @@ sar_speedrun_category "Mind Escape Chambers"
 sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map sp_a260201_room_1alpha"
 ```
 
-**Mind Escape (Splits on Maps):**
+**Mind Escape (Splits on Maps):** (Included with srconfigs)
 ```
 sar_speedrun_cc_start "Mind Escape"
 sar_speedrun_cc_rule "Start" entity action=start map=sp_a260201_room_1alpha targetname=cam inputname=Disable
@@ -129,7 +129,7 @@ sar_speedrun_category "Mind Escape"
 sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map sp_a260201_room_1alpha"
 ```
 
-**P1 Done P2 (Splits on Chambers):**
+**P1 Done P2 (Splits on Chambers):** (Included with srconfigs)
 ```
 sar_speedrun_cc_start "P1 Done P2 Chambers" action=split
 sar_speedrun_cc_rule "Start" entity action=start map=testchmb_a_00 targetname=trigger_knockout_teleport inputname=Disable
@@ -147,7 +147,7 @@ sar_speedrun_category "P1 Done P2 Chambers"
 sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map testchmb_a_00"
 ```
 
-**P1 Done P2 (Splits on Maps):**
+**P1 Done P2 (Splits on Maps):** (Included with srconfigs)
 ```
 sar_speedrun_cc_start "P1 Done P2"
 sar_speedrun_cc_rule "Start" entity action=start map=testchmb_a_00 targetname=trigger_knockout_teleport inputname=Disable
@@ -160,7 +160,7 @@ sar_speedrun_category "P1 Done P2"
 sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map testchmb_a_00"
 ```
 
-**Portal: Unity Reboot:**
+**Portal: Unity Reboot:** (Included with srconfigs)
 ```
 sar_speedrun_cc_start "Portal Unity Reboot"
 sar_speedrun_cc_rule "Start" entity action=start map=testchmb00 targetname=blackout_cam inputname=Disable
@@ -171,7 +171,7 @@ sar_speedrun_category "Portal Unity Reboot"
 sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map testchmb00"
 ```
 
-**Wake Up:**
+**Wake Up:** (Included with srconfigs)
 ```
 sar_speedrun_cc_start "Wake Up"
 sar_speedrun_cc_rule "Start" entity action=start map=map1 targetname=FILM inputname=PlayMovie
@@ -182,7 +182,7 @@ sar_speedrun_category "Wake Up"
 sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map map1"
 ```
 
-**Welcome Back:**
+**Welcome Back:** (Included with srconfigs)
 ```
 sar_speedrun_cc_start "Welcome Back"
 sar_speedrun_cc_rule "Start" entity action=start map=sp_intro targetname=start_fade inputname=Fade
@@ -195,7 +195,7 @@ sar_speedrun_category "Welcome Back"
 sar_alias do_reset "sar_speedrun_reset; stop; sv_allow_mobile_portals 0; map sp_intro"
 ```
 
-**Wibi!Data:**
+**Wibi!Data:** (Included with srconfigs)
 ```
 sar_speedrun_cc_start "Wibi!Data"
 sar_speedrun_cc_rule "Start" entity action=start map=sp_lobby_1 targetname=Arrival_Elevator inputname=Open

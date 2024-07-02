@@ -10,7 +10,8 @@ SAR already supports categories for Portal 2, Aperture Tag, Portal Stories: Mel,
 
 1. Open `cats.md` and search for the mod you wish to create a category for.
 2. Copy the lines containing "sar_speedrun_cc_" and paste them into a new `.cfg` file that'll hold category definitions.
-   1. Remember to add `exec custom_cats` (or whatever you decided to name the file) in your `extra.cfg` (or autoexec if you don't use srconfigs).
+   1. **NOTE: Many of these categories are already included with srconfigs, and do not need to be added into a custom categories file. Check `srconfigs/mkcats.cfg` to see if the category is already included.**
+   2. Remember to add `exec custom_cats` (or whatever you decided to name the file) in your `extra.cfg` (or autoexec if you don't use srconfigs).
 3. Create a new `.cfg` file for the specific mod's recording/category set commands, or download the Demo Category (read below) to use as a base.
    1. srconfigs users should put this file in `srconfigs/cats`.
 4. Add the "sar_speedrun_category" and "sar_alias do_reset" lines to this new file.
