@@ -9,18 +9,18 @@ SAR already supports categories for Portal 2, Aperture Tag, Portal Stories: Mel,
 ## Installation
 
 1. Open `cats.md` and search for the mod you wish to create a category for.
-2. Copy the lines containing "sar_speedrun_cc_" and paste them into the mod's `.cfg` file
-   - If you're using [srconfigs](https://github.com/p2sr/srconfigs), put these commands into the `mkcats.cfg` file.
-3. Add the "sar_speedrun_category" line to the mod's `.cfg` file and set it to the category you want to use. srconfigs users should put this file in the `cfg/cats` directory.
-4. Add the "sar_alias do_reset" line to the end of the mod's `.cfg` file. This command is used to stop and reset a run.
+2. Copy the lines containing "sar_speedrun_cc_" and paste them into a new `.cfg` file that'll hold category definitions.
+   1. Remember to add `exec custom_cats` (or whatever you decided to name the file) in your `extra.cfg` (or autoexec if you don't use srconfigs).
+3. Create a new `.cfg` file for the specific mod's recording/category set commands, or download the Demo Category (read below) to use as a base.
+   1. srconfigs users should put this file in `srconfigs/cats`.
+4. Add the "sar_speedrun_category" and "sar_alias do_reset" lines to this new file.
    - Feel free to change the `map` part of the do_reset alias to be a save loading if the mod has a vault/start save available.
+5. If you use srconfigs, add "add_cat [mod file name]" to your `extra.cfg` file, and in-game, run `[mod file name]` to load the category.
 
 ## Demo Category
 
 For those that don't want to create a new config file from scratch for a mod, I've included a `demo-category.cfg` file that contains most of the commands needed for a run, including demo recording commands. The file is based on srconfigs' category files, however it does work standalone.
 
-1. Download this file, place it in `cfg/cats` (or just cfg without srconfigs), and rename it to the mods name.
-2. Follow the instructions on the file to set up the category.
-3. [SRCONFIGS ONLY] Add the command `add_cat <file name>` to your extra.cfg file. Then in game, you can run `<file name>` to select the category.
+To install, download the file and follow the included instructions to set up. This file is meant to be the "specific mod file" mentioned in Step 3 of the installation guide above.
 
 *Do note that some mods use different proof standards, so you may need to edit some of the demo recording and timing commands.*
